@@ -1,0 +1,70 @@
+.bg-blue {
+    background-color: #32C8DE;
+}
+
+.bg-yellow {
+    background-color: #FCD419;
+}
+
+.bg-green {
+    background-color: #51D466;
+}
+
+.bg-red {
+    background-color: #F75353;
+}
+
+.panel-portal {
+    width: auto;
+    margin-top: 5px;
+}
+
+.panel-portal .panel-header {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: 15px 10px;
+}
+
+.panel-portal .panel-body {
+    padding: 2px 2px !important;
+}
+
+.panel-pricing {
+    border-top: 3px solid #32C8DE !important;
+}
+
+.panel-pricing-default {
+    border-top: 2px solid #EEE !important;
+}
+
+.panel-pricing {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #EEE;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    border-radius: 3px;
+}
+
+.panel-pricing .icon {
+    position: relative;
+    float: right;
+    top: -40px;
+    right: -26px;
+    padding: 10px 10px;
+    background-color: #32C8DE;
+    color: #FFF;
+    border-radius: 23px;
+}
+
+.panel-pricing h3 {
+    font-size: 33px;
+    font-weight: 300 !important;
+    color: #666;
+}

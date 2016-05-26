@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans.eot") /* EOT file for IE */
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("OpenSans.ttf") /* TTF file for CSS3 browsers */
+}
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+.topo {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    background-color: #FDFDFD;
+    border-bottom: solid 1px #F5F5F5;
+}
+
+.topo a {
+    color: #999;
+}
+
+.topo .email {
+    padding-top: 10px;
+}
+
+.email a {
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.rede-social a{
+    padding: 6px 3px !important;
+}
+
+i.fa-facebook-official {
+    color: #3280E7;
+}
+
+i.fa-google-plus-square {
+    color: #F96F4A;
+}
+
+i.fa-twitter-square {
+    color: #32C8DE;
+}
+.color-blue {
+    color: #32C8DE !important;
+}
+
+.login {
+    margin-top: 14px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.login span {
+    margin-left: 2px;
+    color: #999;
+    font-size: 13px;
+}
+
+.menu {
+    width: 100%;
+    height: 58px;
+}
+
+.menu img {
+    width: 105px;
+    height: 65px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.menu-bar {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.menu-bar li {
+    display: inline-block;
+    padding: 5px 12px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container-portal {
+    width: 100%;
+    margin-top: 15px;
+    border-top: 3px solid #32C8DE !important;
+}
+
+.container-portal .titulo h3 {
+    font-size: 40px;
+    font-family: "Open Sans";
+    font-weight: 500 !important;
+    color: #909090;
+    display: inline-block;
+}
+
+.container-portal .titulo {
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-weight: 300 !important;
+    text-align: left;
+    color: #32C8DE;
+    border-bottom: 1px solid #EEE;
+}
+
+.disciplina {
+    padding: 7px 10px;
+    border-radius: 15px;
+    margin-right: 7px;
+    color: #FFF;
+    font-weight: 600;
+}
